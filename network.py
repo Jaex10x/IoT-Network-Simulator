@@ -1,4 +1,4 @@
-import simpy
+
 import random
 class IoTNetwork:
     def __init__(self, env):
