@@ -1,5 +1,5 @@
 import random
-import simpy
+
 
 class IoTDevice:
     def __init__(self, env, name, data_rate=1.0):  # data_rate in packets/sec
