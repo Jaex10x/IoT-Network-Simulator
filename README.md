@@ -1,0 +1,1 @@
+An IoT network simulator is a tool used to model and test the behavior of Internet of Things (IoT) devices and networks in a virtual environment. It allows developers and researchers to simulate various scenarios, such as device communication, data transmission, and network congestion, without the need for physical hardware.
