@@ -15,6 +15,6 @@ class IoTNetwork:
     def simulate_interference(self):
         """Optional: Add background interference events."""
         while True:
-            yield self.env.timeout(random.uniform(5, 10))  # Interference every 5-10s
+            yield self.env.timeout(random.uniform(5, 10))  
             print(f"[{self.env.now:.2f}] Network interference detected!")
-            # Could increase loss_prob here if extended
+            

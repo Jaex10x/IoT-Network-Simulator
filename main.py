@@ -18,14 +18,14 @@ def run_simulation(num_devices=5, sim_time=30, log_callback=None):
         if log_callback:
             log_callback(logs[-1])
     
-    # use log_message instead of print 
+  
     original_print = print
     def custom_print(*args, **kwargs):
         msg = ' '.join(map(str, args))
         log_message(msg)
-        original_print(*args, **kwargs)  # Still print to console if needed
+        original_print(*args, **kwargs) 
     
-    # Monkey-patch print globally for this run (or inject into classes)
+    
     import builtins
     builtins.print = custom_print
     
